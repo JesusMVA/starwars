@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+background: linear-gradient(90deg, rgba(18,18,18,1) 25%, rgba(120,99,3,1) 50%, rgba(20,20,20,1) 63%);
 }
 
 .App-logo {
@@ -35,4 +37,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+nav{
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+  height: 40px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: white;
+}
+
+.carousel{
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.carousel img{
+height: 400px;
+border-radius: 30px;
+}
+
+
+.Text{
+  margin-top: 40px;
+  color: gold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 18px;
+  text-shadow: 1px 1px 4px rgb(0, 0, 0);
+  background-color: black;
+}
+
+.Footer{
+  margin-top: 100px;
+  color: gold;
+  background-color: black;
+  padding: 40px;
+}
+
+
+footer{
+  margin-top: 30px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 25% 25% 25%;
+}
+
+footer p{
+  color: white;
+}
+
+.ImgF{
+  height: 150px;
+}
+
+.Card{
+  background-color: #282c34;
+}
+
+.CardsG{
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: center;
+  margin-top: 100px;
 }
