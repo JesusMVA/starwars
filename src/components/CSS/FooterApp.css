@@ -1,0 +1,22 @@
+.Footer{
+    margin-top: 100px;
+    color: gold;
+    background-color: black;
+    padding: 40px;
+  }
+  
+  
+  footer{
+    margin-top: 30px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 25% 25% 25%;
+  }
+  
+  footer p{
+    color: white;
+  }
+  
+  .ImgF{
+    height: 150px;
+  }

@@ -1,5 +1,7 @@
 import React from 'react'
 import Jedi from '../assets/img/jedi.png'
+import './CSS/FooterApp.css';
+
 
 
 

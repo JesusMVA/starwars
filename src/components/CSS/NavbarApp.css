@@ -1,0 +1,23 @@
+nav{
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    height: 40px;
+  }
+  
+ a{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:white;
+   text-decoration:none;
+   transition: all .5s;
+ }
+
+ a:hover{
+   color:gold;
+ }
+
+ .navbar-toggler{
+   background-color:rgb(255, 255, 255);
+ }
