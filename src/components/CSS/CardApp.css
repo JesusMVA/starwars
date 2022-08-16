@@ -1,0 +1,43 @@
+.CardsG{
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+  }
+
+.CardI{
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+
+.CardI img{
+    height: 200px;
+    border-radius: 40px;
+    margin: auto;
+  }
+
+.CardI h3{
+    margin: 20px auto;
+    color: gold;
+}
+
+.CardI p{
+    color: gainsboro;
+}
+
+.CardI button{
+    padding: 5px 20px;
+    background-color: gold;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.CardI button:hover{
+    background-color: transparent;
+    border-color: gold;
+    color: gold;
+}

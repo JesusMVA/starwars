@@ -69,9 +69,4 @@ footer p{
 
 
 
-.CardsG{
-  display: grid;
-  grid-template-columns: 20% 20% 20%;
-  justify-content: center;
-  margin-top: 100px;
-}
+

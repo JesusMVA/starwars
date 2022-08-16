@@ -7,14 +7,14 @@ nav{
     height: 40px;
   }
   
- a{
+  .nav-link{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color:white;
    text-decoration:none;
    transition: all .5s;
  }
 
- a:hover{
+ .nav-link:hover{
    color:gold;
  }
 

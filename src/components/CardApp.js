@@ -1,21 +1,15 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import './CSS/CardApp.css';
+import React from 'react'
+import './CSS/CardApp.css'
 
-
-function BasicExample() {
-  return ( 
-    <Card  style={{ width: '18rem'}}>
-      <Card.Img variant="top" src=""/>
-      <Card.Body>
-        <Card.Title></Card.Title>
-        <Card.Text>
-      
-        </Card.Text>
-        <Button variant="" className='btn btn-outline-warning'>Ver mas</Button>
-      </Card.Body>
-    </Card>
-  );
+const CardApp = (props) => {
+  return (
+    <div className='CardI'>
+        <img src={props.img}/>
+        <h3>{props.title}</h3>
+        <p>{props.text}</p>
+        <button>{props.boton}</button>
+    </div>
+  )
 }
 
-export default BasicExample;
+export default CardApp
