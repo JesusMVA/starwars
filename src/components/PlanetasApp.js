@@ -16,15 +16,15 @@ export const PlanetasApp = () => {
         {
             planetas.map(planetas => (
                 <div className='Cplanetas' key={setPlanetas}>
-                    <p>Planeta: {planetas.name}</p>
-                    <p>Periodo de rotacion: {planetas.rotation_period}</p>
-                    <p>Periodo orbital: {planetas.orbital_period}</p>
-                    <p>Diametro: {planetas.diameter}</p>
-                    <p>Clima: {planetas.climate}</p>
-                    <p>Gravedad: {planetas.gravity}</p>
-                    <p>Terreno: {planetas.terrain}</p>
-                    <p>Agua superficial: {planetas.surface_water}</p>
-                    <p>Poblacion: {planetas.population}</p>
+                    <center><h4><strong className='fuerte'></strong>{planetas.name}</h4></center><br/>
+                    <p><strong className='fuerte'>Periodo de rotacion: </strong>{planetas.rotation_period}</p>
+                    <p><strong className='fuerte'>Periodo orbital: </strong>{planetas.orbital_period}</p>
+                    <p><strong className='fuerte'>Diametro: </strong>{planetas.diameter}</p>
+                    <p><strong className='fuerte'>Clima: </strong>{planetas.climate}</p>
+                    <p><strong className='fuerte'>Gravedad: </strong>{planetas.gravity}</p>
+                    <p><strong className='fuerte'>Terreno: </strong>{planetas.terrain}</p>
+                    <p><strong className='fuerte'>Agua superficial: </strong>{planetas.surface_water}</p>
+                    <p><strong className='fuerte'>Poblacion: </strong>{planetas.population}</p>
                 </div>
             ))
         }
