@@ -21,7 +21,7 @@ text-align: center;
 }
 
 .Cplanetas{
-  background-color: grey;
+  background-color: gold;
   margin: 80px 0;
   padding: 20px;
   border-radius: 30px;
@@ -33,11 +33,16 @@ text-align: center;
   justify-content: center;
 }
 
+
 .Gplanet{
+  margin-top: 100px;
   display: grid;
   grid-template-columns: 20% 20% 20%;
   justify-content: center;
   gap: 30px;
+  background-color: black;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 45%;
 }
 
 .carousel{

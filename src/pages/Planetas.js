@@ -7,7 +7,7 @@ import FooterApp from '../components/FooterApp.js'
 
 function Planetas() {
     return (
-        <div>
+        <div className="Bplanet">
             <NavScrollExample/>
             <div className="Planet">
             <PlanetasApp/>
