@@ -20,9 +20,25 @@ text-align: center;
   background: linear-gradient(90deg, rgba(18,18,18,1) 25%, rgba(120,99,3,1) 50%, rgba(20,20,20,1) 63%);
 }
 
+.Cplanetas{
+  background-color: grey;
+  margin: 80px 0;
+  padding: 20px;
+  border-radius: 30px;
+}
 
+.Planet{
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+}
 
-
+.Gplanet{
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: center;
+  gap: 30px;
+}
 
 .carousel{
   padding: 30px;

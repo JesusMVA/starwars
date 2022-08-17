@@ -1,6 +1,6 @@
 import Home from "./pages/Home";
-import { Personajes } from "./pages/Personajes";
-import Planetas from "./pages/Planetas";
+import Personajes  from "./pages/Personajes";
+import Planetas  from "./pages/Planetas";
 import {Routes, Route} from 'react-router-dom';
 
 

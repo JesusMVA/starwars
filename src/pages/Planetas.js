@@ -1,13 +1,20 @@
-import React from 'react'
+import React from "react";
+import {PlanetasApp} from '../components/PlanetasApp'
 import NavScrollExample from '../components/NavbarApp'
-import Footer from '../components/FooterApp'
+import FooterApp from '../components/FooterApp.js'
+
 
 
 function Planetas() {
-    <div className="Per">
-    <NavScrollExample/>
-    <Footer/>
-    </div>
+    return (
+        <div>
+            <NavScrollExample/>
+            <div className="Planet">
+            <PlanetasApp/>
+            </div>
+            <FooterApp/>
+        </div>
+    )
 }
 
 export default Planetas
