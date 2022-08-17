@@ -7,9 +7,13 @@ import FooterApp from '../components/FooterApp.js'
 
 function Planetas() {
     return (
-        <div className="Bplanet">
+        <div className="Planetas">
             <NavScrollExample/>
+            
             <div className="Planet">
+            <center>
+            <h1 className="Tplanetas">PLANETAS</h1>
+            </center>
             <PlanetasApp/>
             </div>
             <FooterApp/>

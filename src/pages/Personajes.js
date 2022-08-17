@@ -10,6 +10,9 @@ function Planetas() {
         <div>
             <NavScrollExample/>
             <div className="Planet">
+            <center>
+            <h1 className="Tpersonajes">PERSONAJES</h1>
+            </center>
             <PersonajesApp/>
             </div>
             <FooterApp/>

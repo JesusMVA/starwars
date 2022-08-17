@@ -21,3 +21,8 @@ nav{
  .navbar-toggler{
    background-color:rgb(255, 255, 255);
  }
+
+ @font-face {
+   font-family:'STJEDISE';
+   src: url(../../assets/fonts/STJEDISE.TTF);
+ }

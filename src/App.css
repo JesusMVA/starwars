@@ -25,10 +25,10 @@ text-align: center;
   background-size: cover;
   margin: 80px 0;
   color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Starjedi';
   padding: 20px;
   border-radius: 30px 10px 10px 30px;
-  max-height: 250px;
+  max-height: 300px;
   overflow-y: auto;
 }
 
@@ -47,10 +47,10 @@ text-align: center;
   background-size: cover;
   margin: 80px 0;
   color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Starjedi';
   padding: 25px 40px;
   border-radius: 30px 10px 10px 30px;
-  max-height: 250px;
+  max-height: 300px;
   overflow-y: auto;
 }
 
@@ -70,15 +70,32 @@ text-align: center;
   display: grid;
   grid-template-columns: 100%;
   justify-content: center;
+  background-color: #010211;
+
 }
+
+.Tplanetas{
+  margin-top: 100px;
+  font-family: 'Starjedi';
+  color: white;
+}
+
+.Tpersonajes{
+  margin-top: 100px;
+  font-family: 'Starjedi';
+  color: white;
+}
+
+
 
 
 .Gplanet{
   margin-top: 100px;
+  margin-bottom: 100px;
   display: grid;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns: 22% 22% 22%;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(6, 0, 39, 0.1)), url(./assets/img/fondo.jpg);
   background-size: cover;
   border-top-right-radius: 25%;
@@ -99,34 +116,12 @@ border-radius: 30px;
 .Text{
   margin-top: 40px;
   color: gold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Starjedi';
   padding: 18px;
   text-shadow: 1px 1px 4px rgb(0, 0, 0);
   background-color: black;
 }
 
-.Footer{
-  margin-top: 100px;
-  color: gold;
-  background-color: black;
-  padding: 40px;
-}
-
-
-footer{
-  margin-top: 30px;
-  display: grid;
-  justify-content: space-evenly;
-  grid-template-columns: 25% 25% 25%;
-}
-
-footer p{
-  color: white;
-}
-
-.ImgF{
-  height: 150px;
-}
 
 
 .fuerte{
@@ -134,4 +129,7 @@ footer p{
   text-shadow: 1px 1px rgb(22, 16, 0);
 }
 
-
+@font-face {
+  font-family:'Starjedi';
+  src: url(./assets/fonts/Starjedi.ttf);
+}
