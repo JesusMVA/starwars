@@ -6,13 +6,11 @@ import FooterApp from '../components/FooterApp.js'
 
 
 const Personajes = () => {
-  const { getAllPerson, dataPeople, Contador, disminuir, aumentar } =
+  const { getAllPerson, dataPerson, Contador, disminuir, aumentar } =
     UsePerson();
   useEffect(() => {
     getAllPerson(Contador);
-
-    // console.log(dataPeople);
-  }, [dataPeople]);
+  }, [dataPerson]);
   return (
     <div>
         <NavScrollExample/>
@@ -20,7 +18,7 @@ const Personajes = () => {
         <h1 className="Tpersonajes">PERSONAJES</h1>
     </center>
       <div className='Gplanet'>
-        {dataPeople.map((personajes) => (
+        {dataPerson.map((personajes) => (
         <PersonajeApp
             key={personajes.name}
             name={personajes.name}
@@ -34,24 +32,13 @@ const Personajes = () => {
           />
         ))}
       </div>
-      <div className="container d-flex   justify-content-center align-items-center">
+      <div className="Paginacion">
         <button className="botonPag" onClick={disminuir}>
           Anterior
         </button>
-        <b
-          style={{
-            marginLeft: "12px",
-            marginRight: "12px",
-            fontSize: "larger",
-            color: "black",
-            textShadow: "0 0 4px #FFE919",
-          }}
-        >
-          {Contador}
-        </b>
+        <h5>{Contador}</h5>
         <button className="botonPag" onClick={aumentar}>
           Siguiente
-          
         </button>
       </div><br/>
       <FooterApp/>

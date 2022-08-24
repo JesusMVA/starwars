@@ -27,7 +27,7 @@ function NavScrollExample() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Star........."
+              placeholder="Star......"
               className="me-2"
               aria-label="BUSCAR"
             />

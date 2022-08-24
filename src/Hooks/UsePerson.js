@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const UsePerson = () => {
-  const [dataPeople, setDataPeople] = useState([]);
+  const [dataPerson, setDataPerson] = useState([]);
 
   const [Contador, setContador] = useState(1);
 
@@ -31,7 +31,7 @@ export const UsePerson = () => {
         requestOptions
       )
         .then((response) => response.json())
-        .then((result) => setDataPeople(result.results))
+        .then((result) => setDataPerson(result.results))
         .catch((error) => console.log("error", error));
     } catch (error) {
       console.log(error);
@@ -39,7 +39,7 @@ export const UsePerson = () => {
   };
   return {
     getAllPerson,
-    dataPeople,
+    dataPerson,
     Contador,
     aumentar,
     disminuir,

@@ -11,7 +11,6 @@ const Planetas = () => {
     useEffect(() => {
       getAllPlanets(Contador);
   
-      // console.log(dataPlanets);
     }, [dataPlanets]);
 
     return (
@@ -34,24 +33,13 @@ const Planetas = () => {
               />
             ))}
           </div>
-          <div className="container d-flex   justify-content-center align-items-center">
+          <div className="Paginacion">
             <button className="botonPag" onClick={disminuir}>
               Anterior
             </button>
-            <b
-              style={{
-                marginLeft: "12px",
-                marginRight: "12px",
-                fontSize: "larger",
-                color: "black",
-                textShadow: "0 0 4px #FFE919",
-              }}
-            >
-              {Contador}
-            </b>
+            <h5>{Contador}</h5>
             <button className="botonPag" onClick={aumentar}>
               Siguiente
-              
             </button>
           </div><br/>
           <FooterApp/>

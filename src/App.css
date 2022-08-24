@@ -14,12 +14,16 @@ text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/*HOME---------------------------------------------------------------------------------------------*/
+
 
 .Home{
   text-align: center;
   background: linear-gradient(90deg, rgba(18,18,18,1) 25%, rgba(120,99,3,1) 50%, rgba(20,20,20,1) 63%);
 }
 
+
+/*PLANETAS-----------------------------------------------------------------------------------------*/
 .Cplanetas{
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(197, 197, 197, 0.1)), url(./assets/img/estrella.jpg);
   background-size: cover;
@@ -41,6 +45,46 @@ text-align: center;
   border-radius: 15px;
 }
 
+.Planet{
+  background-color: #010211;
+
+}
+
+.Tplanetas{
+  margin-top: 100px;
+  font-family: 'Starjedi';
+  color: white;
+}
+
+
+
+.Gplanet{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 22% 22% 22%;
+  gap: 50px;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(6, 0, 39, 0.1)), url(./assets/img/fondo.jpg);
+  background-size: cover;
+}
+
+.botonPag{
+  background-color: gold;
+  border-radius: 10px;
+  border: transparent;
+  padding: 5px;
+  color: white;
+  transition: all .5s;
+}
+
+.botonPag:hover{
+  background-color: transparent;
+  border: gold 1px solid;
+  color: black;
+}
+
+/*PERSONAJES--------------------------------------------------------------------------------------------*/
 
 .Cpersonajes{
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(105, 1, 1, 0.1)), url(./assets/img/vaderb.jpg);
@@ -64,52 +108,21 @@ text-align: center;
 }
 
 
-
-
-.Planet{
-  background-color: #010211;
-
-}
-
-.Tplanetas{
-  margin-top: 100px;
-  font-family: 'Starjedi';
-  color: white;
-}
-
 .Tpersonajes{
   margin-top: 100px;
   font-family: 'Starjedi';
   color: rgb(0, 0, 0);
 }
 
-.botonPag{
-  background-color: gold;
-  border-radius: 10px;
-  border: transparent;
-  padding: 5px;
-  color: white;
-  transition: all .5s;
-}
 
-.botonPag:hover{
-  background-color: transparent;
-  border: gold 1px solid;
-  color: black;
-}
-
-
-.Gplanet{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  display: grid;
-  grid-template-columns: 22% 22% 22%;
-  gap: 50px;
+.Paginacion{
+  width: 100%;
+  display: flex;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(6, 0, 39, 0.1)), url(./assets/img/fondo.jpg);
-  background-size: cover;
+  gap: 13px;
 }
 
+/*SLIDER--------------------------------------------------------------------------------------------------*/
 
 .carousel{
   padding: 30px;
@@ -120,6 +133,7 @@ text-align: center;
 height: 400px;
 border-radius: 30px;
 }
+
 
 
 .Text{

@@ -19,6 +19,7 @@ export const PlanetasApp = ({
                     <p><strong className='fuerte'>Poblacion: </strong>{poblacion}</p>
                     <p><strong className='fuerte'>Gravedad: </strong>{gravedad}</p>
                     <p><strong className='fuerte'>Diametro: </strong>{diametro}</p>
+                    <button className="btn btn-warning">Ver detalle</button>
                 </div>
   )
 }
