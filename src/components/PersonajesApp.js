@@ -1,6 +1,5 @@
-import { Button } from "bootstrap";
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 export const PersonajeApp = ({
@@ -26,7 +25,7 @@ export const PersonajeApp = ({
                     <p><strong className='fuerte'>Color de ojos: </strong>{eyes}</p>
                     <p><strong className='fuerte'>Fecha de nacimiento: </strong>{birthday}</p>
                     <p><strong className='fuerte'>Genero: </strong>{gender}</p>
-                    <Card.Link className="btn btn-warning" href='/DetallePersonaje'>Ver detalle</Card.Link>
+                    <Link to="/DetallePersonaje"></Link>
                 </div>
     </div>
   )

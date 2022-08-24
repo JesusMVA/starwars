@@ -14,7 +14,7 @@ const Planetas = () => {
     }, [dataPlanets]);
 
     return (
-        <div>
+      <div className="Black">
             <NavScrollExample/>
         <center>
             <h1 className="Tpersonajes">PLANETAS</h1>
@@ -37,7 +37,7 @@ const Planetas = () => {
             <button className="botonPag" onClick={disminuir}>
               Anterior
             </button>
-            <h5>{Contador}</h5>
+            <h5 className="Ncontador">{Contador}</h5>
             <button className="botonPag" onClick={aumentar}>
               Siguiente
             </button>

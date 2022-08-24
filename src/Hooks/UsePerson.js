@@ -16,7 +16,9 @@ export const UsePerson = () => {
     if (Contador < 9) {
       setContador(Contador + 1);
     } else {
-      setContador(9);
+      setContador(9);{
+        
+      }
     }
   };
 

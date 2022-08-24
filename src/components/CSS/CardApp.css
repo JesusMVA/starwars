@@ -11,6 +11,11 @@
     background-color: black;
     padding: 20px;
     border-radius: 30px;
+    transition: all .5s;
+}
+
+.CardI:hover{
+    transform: scale(1.05);
 }
 
 

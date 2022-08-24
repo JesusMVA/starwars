@@ -3,6 +3,9 @@
 text-align: center;
 }
 
+Personajes{
+  background-color: #282c34;
+}
 
 .App-header {
   background-color: #282c34;
@@ -86,6 +89,11 @@ text-align: center;
 
 /*PERSONAJES--------------------------------------------------------------------------------------------*/
 
+
+.Black{
+  background-color: #141414;
+}
+
 .Cpersonajes{
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(105, 1, 1, 0.1)), url(./assets/img/vaderb.jpg);
   background-size: cover;
@@ -111,7 +119,7 @@ text-align: center;
 .Tpersonajes{
   margin-top: 100px;
   font-family: 'Starjedi';
-  color: rgb(0, 0, 0);
+  color: gold;
 }
 
 
@@ -145,6 +153,10 @@ border-radius: 30px;
   background-color: black;
 }
 
+h5.Ncontador{
+  color: white;
+  padding: 2px;
+}
 
 
 .fuerte{
