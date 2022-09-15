@@ -1,14 +1,33 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import PersonajeApp from '../components/PersonajesApp';
+import React, {useEffect, useState} from 'react';
+import NavScrollExample from '../components/NavbarApp'
+import FooterApp from '../components/FooterApp.js'
+import { useParams } from 'react-router-dom';
+import { UsePerson } from '../Hooks/UsePerson';
+import { singlePerson } from '../Hooks/FunctionPerson';
 
-const DetallePersonaje = () => {
+export const DetallePersonaje = () => {
+    const { getAllPerson, setPersonajes } = UsePerson();
+
+    const params = useParams();
+    const paramslista = [params];
+
+    const map = paramslista.map((list) => list.name);
+
+    var name = map[0];
+
+    useEffect(() =>{
+        singlePerson(params.name)
+    }, []);
 
   return (
-    <div>
-      <PersonajeApp/>
-    </div>
+    <>
+        <NavScrollExample/>
+        <div>
+          <h3>Nombre: {name}</h3>
+        </div>
+        <FooterApp/>
+    </>
   )
-};
+}
 
-export default DetallePersonaje
+export default DetallePersonaje;

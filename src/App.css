@@ -110,6 +110,11 @@ Personajes{
   width: 7px;
 }
 
+.detalleB{
+  color: gold;
+  text-decoration: none;
+}
+
 .Cpersonajes::-webkit-scrollbar-thumb{
   background-color: rgb(255, 208, 0);
   border-radius: 10px;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 
 export const PersonajeApp = ({
@@ -25,8 +25,9 @@ export const PersonajeApp = ({
                     <p><strong className='fuerte'>Color de ojos: </strong>{eyes}</p>
                     <p><strong className='fuerte'>Fecha de nacimiento: </strong>{birthday}</p>
                     <p><strong className='fuerte'>Genero: </strong>{gender}</p>
-                    <button className="btn btn-warning"  href='/DetallePersonaje'>Ver detalle</button>
-                    <Link to="/DetallePersonaje"></Link>
+                    <Button key={PersonajeApp.name} variant="outline-light" >
+                      <a className='detalleB' href={`/Personajes/${name}`}>Detalles</a>
+                    </Button>
                 </div>
     </div>
   )
