@@ -3,9 +3,6 @@
 text-align: center;
 }
 
-Personajes{
-  background-color: #282c34;
-}
 
 .App-header {
   background-color: #282c34;
@@ -18,6 +15,7 @@ Personajes{
   color: white;
 }
 /*HOME---------------------------------------------------------------------------------------------*/
+
 
 
 .Home{
@@ -89,6 +87,69 @@ Personajes{
 
 /*PERSONAJES--------------------------------------------------------------------------------------------*/
 
+
+.DetailContainer{
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #010211;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80%;
+}
+
+.Personal{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(1, 30, 125, 0.2)), url(./assets/img/personal.jpg);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.Personal  .title{
+  color: gold;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Personal p{
+  color: white;
+  padding: 5px;
+}
+
+.MV{
+  width: 100%;
+  margin-top: 100PX;
+  display: grid;
+  grid-template-columns: 35% 35%;
+  gap: 100px;
+  justify-content: center;
+  height: 300px;
+}
+
+.MV .title{
+  color: gold;
+  font-weight: bold;
+}
+
+.MV p{
+  color: white;
+}
+
+.Movies{
+  background-color: #010a1d;
+  padding: 30px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.Vehiculos{
+  background-color: #010a1d;
+  padding: 30px;
+  text-align: center;
+  border-radius: 30px;
+}
 
 .Black{
   background-color: #141414;
